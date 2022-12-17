@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article from preferred-citation and the software itself."
+preferred-citation:
+  authors:
+    - family-names: Paulus
+      given-names: Bernd
+    - family-names: Biskup
+      given-names: Till
+      orcid: "https://orcid.org/0000-0003-2913-0004"
+  title: "Towards more reproducible and FAIRer research data: documenting provenance during data acquisition using the Infofile format"
+  doi: 10.26434/chemrxiv-2022-jsjnd
+  journal: "ChemRxiv"
+  year: 2022
+  type: article
+title: Infofile format
+abstract: >
+    Recording metadata during data acquisition is both, an essential aspect of and as old as science itself. The Infofile format is a simple textual file format developed to document research data. It allows researchers in the lab to record all relevant metadata during data acquisition in a user-friendly and obvious way while minimising any external dependencies. The resulting machine-actionable metadata in turn allow processing and analysis software to access relevant information, besides making the research data more reproducible and FAIRer.
+authors:
+  - family-names: Paulus
+    given-names: Bernd
+  - family-names: Biskup
+    given-names: Till
+    orcid: "https://orcid.org/0000-0003-2913-0004"
+type: software
+license: BSD-2-Clause
+repository-code: "https://github.com/tillbiskup/infofile"
+keywords:
+  - "reproducible research"
+  - "research data management"
+  - "provenance metadata"
+  - "FAIR data"
+  - "knowledge management"
+  - "electronic laboratory notebook"
+references:
+  - authors:
+    - family-names: Biskup
+      given-names: Till
+      orcid: "https://orcid.org/0000-0003-2913-0004"
+    doi: 10.5281/zenodo.4717937
+    repository-code: "https://github.com/tillbiskup/aspecd"
+    title: ASpecD
+    type: software

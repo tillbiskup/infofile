@@ -1,0 +1,115 @@
+pEPR Info file - v. 0.0.2 (2016-06-17)
+
+GENERAL
+Filename:               Sample06-HYSCORE-20K-1sc-03
+Date start:             2014-12-01
+Date end:               2014-12-01
+Time start:             07:40:00
+Time end:               15:17:00
+Operator:               Max Mustermann
+Label:                  Sample 06 HYSCORE 03
+Purpose:                Sample 06 HYSCORE good resolution
+
+SAMPLE
+Name:                   Bla 13CN immediately frozen
+ID:                     sa42
+Batch:                  ba35
+Description:            Bla 13CN immediately frozen (sample 06)
+Solvent:                N/A
+Substrate:              N/A
+Preparation:            N/A
+Tube:                   3,8 x 3,0 x 250 mm
+
+EXPERIMENT
+Type:                   2PFSE|InvRec|ESEEM|HYSCORE|ENDOR
+Runs:                   1
+Variable parameter:     attenuation|temperature|...
+Increment:              xxx
+
+SPECTROMETER
+Model:                  Bruker Elexsys E580
+Software:               Xepr 2.6b.131
+
+MAGNETIC FIELD
+Field probe type:       Hall 
+Field probe model:      xxx 
+Start:                  348,30 mT
+Stop:                   348,30 mT
+Step:                   0 mT
+Sequence:               none
+Controller:             Bruker 
+Power supply:           Bruker ER 083 CS
+
+BRIDGE
+Model:                  Bruker TeraSpec Pulsed X-Band I.F. Bridge
+Controller:             Bruker MBC
+Attenuation:            05 dB
+Power:                  xx mW
+Detection:              mixer
+Frequency counter:      Bruker
+MW frequency:           9.69053 GHz
+
+MICROWAVE AMPLIFIER
+Type:                   TWT
+Model:                  Applied Systems Engineering 117X
+Power:                  1 kW
+
+VIDEO AMPLIFIER
+Bandwidth:              25 MHz
+Amplification:          66 dB
+
+RECORDER
+Model:                  Bruker SpecJet
+Averages:               100
+Time base:              4 ns
+Bandwidth:              25 MHz
+
+ENDOR
+RFAmplifier:            Amplifier Research 250A250A
+RFStart:                50 MHz
+RFStop:                 66 MHz
+RFStep:                 16/320 MHz
+Attenuation:            0 dB
+SumAttenuation:         11 dB                 
+Mode:                   stochastic
+
+PROBEHEAD
+Type:                   dielectric ring
+Model:                  Bruker ER 4118X-MD5
+Coupling:               overcoupled
+
+TEMPERATURE
+Temperature:            20 K
+Controller:             Oxford ITC 503
+Cryostat:               Oxford 935
+Cryogen:                LHe
+
+PULSE PROGRAM
+SRT:                    1000 us
+Scans:                  4
+AcquisitionMode:        PulseSPEL
+
+PULSE PATTERNS
+Channel
+Name:                   +x
+Position:               0,100
+Length:                 18,36
+PositionDisplacement:   0
+LengthIncrement:        0
+Channel
+Name:                   Acq
+Position:               230
+Length:                 66
+PositionDisplacement:   0
+LengthIncrement:        0
+
+PULSESPEL
+Program:                HYSCORE
+Experiment:             HYSCORE
+PhaseCycle:             4-step
+
+COMMENT
+tau = 200 ns
+T1 = T2 = 100:16:4196 ns
+pi/2 = 16 ns
+inversion pulse = 32 ns

@@ -1,0 +1,81 @@
+pEPR Info file - v. 0.0.1 (2013-06-29)
+
+GENERAL
+Filename:               Sample06-HYSCORE-20K-1sc-03
+Date:                   2013-08-30
+Time start:             07:40:00
+Time end:               15:17:00
+Operator:               Max Mustermann
+Experiment:             HYSCORE
+Label:                  Sample 06 HYSCORE 03
+Purpose:                Sample 06 HYSCORE good resolution
+Spectrometer:           Elexsys E680
+Software:               Xepr
+Runs:                   1
+
+SAMPLE
+Name:                   Bla 13CN immediately frozen
+Description:            Bla 13CN immediately frozen (sample 06)
+Buffer:                 N/A
+Preparation:            N/A
+Tube:                   3,8 x 3,0 x 250 mm
+
+MAGNETIC FIELD
+Start:                  348,30 mT
+Stop:                   348,30 mT
+Step:                   0 mT
+Sequence:               none
+Controller:             Bruker 
+Power supply:           Bruker ER 083 CS
+
+BRIDGE
+Model:                  Bruker TeraSpec Pulsed X-Band I.F. Bridge
+Attenuation:            05 dB
+Power:                  xx mW
+Detection:              mixer
+Frequency counter:      Bruker
+MW frequency:           9.69053 GHz
+
+MICROWAVE AMPLIFIER
+Type:                   TWT
+Model:                  Applied Systems Engineering 117X
+Power:                  1 kW
+
+VIDEO AMPLIFIER
+Bandwidth:              25 MHz
+Amplification:          66 dB
+
+RECORDER
+Model:                  Bruker SpecJet
+Averages:               100
+Time base:              4 ns
+Bandwidth:              25 MHz
+
+PROBEHEAD
+Type:                   dielectric ring
+Model:                  Bruker ER 4118X-MD5
+Coupling:               overcoupled
+
+TEMPERATURE
+Temperature:            20 K
+Controller:             Oxford ITC 503
+Cryostat:               Oxford 935
+Cryogen:                LHe
+
+PULSE PROGRAM
+Pi-Pulse:               32 ns
+Sequence:               pi/2-tau-pi/2-T1-pi-T2-pi/2-tau-acq
+SRT:                    1000 us
+Scans:                  4
+AcquisitionMode:        PulseSPEL
+
+PULSESPEL
+Program:                HYSCORE
+Experiment:             HYSCORE
+PhaseCycle:             4-step
+
+COMMENT
+tau = 200 ns
+T1 = T2 = 100:16:4196 ns
+pi/2 = 16 ns
+inversion pulse = 32 ns

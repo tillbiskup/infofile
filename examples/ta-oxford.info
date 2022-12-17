@@ -1,0 +1,95 @@
+TA Info file - v. 0.2d (2012-03-31)
+
+GENERAL
+Filename:               test
+Date:                   20xx-xx-xx
+Time start:             00:00:00
+Time end:               00:00:00
+Operator:               A. Kabelschacht
+Label:                  Test sample
+Spectrometer:           Oxford CRY Lab
+Software:               Slow20111104
+Runs:                   1
+Shot repetition rate:   1/20 Hz
+
+SAMPLE
+Name:                   FAD
+Description:            FAD in buffer
+Preparation:            
+Cuvette:                Hellma QS 10.00
+
+TRANSIENT
+Points:                 25000
+Trigger position:       2500
+Length:                 50 us
+
+SPECTROGRAPH
+Type:                   Ebert-Fastie
+Model:                  Oriel 77250
+Aperture front:         
+Aperture back:          
+
+DETECTION
+Type:                   PMT
+Model:                  Hamamatsu R928
+Power supply:           Brandenburg 476R
+Impedance:              500 Ohm
+Time constant:          50 ns
+
+RECORDER
+Model:                  Iwatsu-LeCroy LT342L 500 MHz
+Averages:               1
+Sensitivity:            5.0 mV
+Bandwidth:              500 MHz
+Time base:              5.0 us
+Coupling:               DC
+
+PUMP
+Type:                   Laser
+Model:                  Continuum Surelite-1
+Wavelength:             450 nm
+Power:                  3 mJ
+Repetition rate:        10 Hz
+Tunable type:           Dye
+Tunable model:          Sirah Cobra
+Tunable dye:            Coumarin-450
+
+PROBE
+Type:                   Lamp
+Model:                  Oriel 66021
+Wavelength start:       370 nm
+Wavelength stop:        650 nm
+Wavelength step:        10 nm
+Wavelength sequence:    530-650,530-370
+Power:                  
+Filter:                 LP390,LP500
+Background:             
+
+TEMPERATURE
+Temperature:            
+Controller:             Oxford ITC-503S
+Cryostat:               Oxford Instruments
+Cryogen:                LN2
+
+MFE
+Field:                  22 mT
+Coil type:              Helmholtz
+Coil model:             
+Power supply:           
+Gaussmeter:             
+
+TIME PROFILES
+Scan 1
+Filename:               
+Wavelength:             
+Averages:               
+Runs:                   
+Filter:                 
+Scan 2
+Filename:               
+Wavelength:             
+Averages:               
+Runs:                   
+Filter:                 
+
+COMMENT

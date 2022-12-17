@@ -1,0 +1,75 @@
+TA Info file - v. 0.2d (2012-03-31)
+
+GENERAL
+Filename:               test
+Date:                   20xx-xx-xx
+Time start:             00:00:00
+Time end:               00:00:00
+Operator:               A. Kabelschacht
+Label:                  Testprobe
+Spectrometer:           LP920-K
+Software:               L900, Version 6.9.1
+Runs:                   1
+Shot repetition rate:   0.0625 Hz
+
+SAMPLE
+Name:                   FAD
+Description:            FAD in Puffer
+Preparation:            
+Cuvette:                
+
+TRANSIENT
+Points:                 2000
+Trigger position:       341
+Length:                 10 us
+
+SPECTROGRAPH
+Type:                   Czerny-Turner with Triple Grating Turret
+Model:                  standard
+Aperture front:         
+Aperture back:          
+
+DETECTION
+Type:                   PMT
+Model:                  standard
+Power supply:           standard
+Impedance:              50 Ohm
+Time constant:          
+
+RECORDER
+Model:                  
+Averages:               10
+Sensitivity:            
+Bandwidth:              1.0
+Time base:              5 ns
+Coupling:               
+
+PUMP
+Type:                   Laser
+Model:                  
+Wavelength:             460 nm
+Power:                  
+Repetition rate:        10 Hz
+Tunable type:           OPO
+Tunable model:          
+
+PROBE
+Type:                   Lamp
+Model:                  standard
+Wavelength start:       385 nm
+Wavelength stop:        655 nm
+Wavelength step:        10 nm
+Wavelength sequence:    up
+Power:                  
+Filter:                 
+Background:             lamp
+
+TEMPERATURE
+Temperature:            285 K
+Controller:             
+Cryostat:               none
+Cryogen:                H2O
+
+COMMENT
+
+Und hier gibt's ein bisschen Freitextkommentar - aber bitte OHNE Umlaute und andere Sonderzeichen!

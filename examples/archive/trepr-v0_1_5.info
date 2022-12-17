@@ -1,0 +1,107 @@
+trEPR Info file - v. 0.1.5 (2015-03-24)
+
+GENERAL
+Filename:               
+Date start:             2014-12-01
+Date end:               2014-12-01
+Time start:             10:00:00
+Time end:               10:15:00
+Operator:               Max Mustermann
+Label:                  
+Purpose:                Erste tr-EPR-Messungen an abc aus x.y
+
+SAMPLE
+Name:                   abc aus x.y 
+Description:            
+Solvent:                 
+Preparation:            
+Tube:                   3.8 x 3 x 180 mm
+
+EXPERIMENT
+Runs:                   1
+Shot Repetition Rate:   1 Hz
+
+SPECTROMETER
+Model:                  ESP380E
+Software:               Transient, Vers. 0.6
+
+MAGNETIC FIELD
+Field probe type:       Hall 
+Field probe model:      xxx 
+Start:                  290 mT
+Stop:                   390 mT
+Step:                   1024/1000 mT
+Sequence:               up | down | stochastic | outward | inward 
+Controller:             Bruker 032 T
+Power supply:           Bruker 083 C
+
+BACKGROUND
+Field:                  300.0 mT
+Occurrence:             10
+Polarisation:           absorptive
+Intensity:              8.8 mV
+
+BRIDGE
+Model:                  Bruker xxx
+Controller:             Bruker MBC
+Attenuation:            20 dB
+Power:                  2.01 mW
+Detection:              diode | mixer
+Frequency counter:      HP 5352B
+MW frequency:           9.6657 GHz
+
+VIDEO AMPLIFIER
+Bandwidth:              25 MHz
+Amplification:          42 dB
+
+RECORDER
+Model:                  LeCroy Waverunner xxx
+Averages:               15
+Time base:              2 ns
+Bandwidth:              xx MHz
+Pretrigger:             1.001 us
+Coupling:               AC | DC
+Impedance:              xx MOhm
+Sensitivity:            xx mV
+
+TRANSIENT
+Points:                 5000
+Length:                 10 us
+Trigger Position:       500        % Wichtig zur Kompatibilitaet mit Berlin
+
+PROBEHEAD
+Type:                   dielectric | split ring 3 mm | cylindrical | ...
+Model:                  Bruker ER 4118X-MD5
+Coupling:               critical | overcoupled
+
+PUMP
+Type:                   Laser mit Glasfaser
+Model:                  GCR 190-15
+Wavelength:             460 nm
+Power:                  1 mJ
+Repetition rate:        15 Hz
+Tunable type:           OPO | dye laser
+Tunable model:          OPTA BBO VIS/IR
+Tunable dye:            
+Tunable position:       11450
+Filter:                 ND T=0.25, ND A=0.5 | BP 650 nm
+
+TEMPERATURE
+Temperature:            270 K
+Controller:             Oxford ITC 503
+Cryostat:               Oxford irgendwas
+Cryogen:                N2 | He
+
+FIELD CALIBRATION
+Filename:               optional
+Field probe type:       Hall|Gaussmeter|Teslameter 
+Field probe model:      xxx 
+Standard:               LiLiF
+Signal field:           xx G       
+MW Frequency:           xx GHz
+
+COMMENT
+Und hier gibt's ein bisschen Freitextkommentar - aber bitte OHNE Umlaute und andere Sonderzeichen!
+z.B.
+Abweichung GM-HS waehrend Messung ca. 1,1 G. Nach 480 Transienten waren
+Kopplung und Frequenz abgedriftet. Sie wurden nachjustiert bei 3499,2 G.

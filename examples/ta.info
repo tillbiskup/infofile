@@ -1,0 +1,75 @@
+TA Info file - v. 0.2d (2012-03-31)
+ 
+GENERAL
+Filename:               sa21
+Date:                   2017-01_23
+Time start:             14:30:00
+Time end:               15:40:00
+Operator:               John Doe
+Label:                  sa369, oDCB, 10us
+Spectrometer:           LP920-K
+Software:               L900, Version 7.3.6
+Runs:                   1
+ShotRepetitionRate:     0.2 Hz
+Purpose:                First try
+ 
+SAMPLE
+Name:                   Something
+Description:            Half the truth
+Preparation:            0.1 mM in oDCB
+Cuvette:                
+ 
+TRANSIENT
+Points:                 2000
+Trigger position:       200
+Length:                 10 us
+ 
+SPECTROGRAPH
+Type:                   Czerny-Turner with Triple Grating Turret
+Model:                  standard
+Aperture front:         
+Aperture back:          
+ 
+DETECTION
+Type:                   PMT
+Model:                  standard
+Power supply:           standard
+Impedance:              50 Ohm
+Time constant:          
+ 
+RECORDER
+Model:                  Tektronix TDS 3012C
+Averages:               1
+Sensitivity:            10 mVOhm
+Bandwidth:              1.0
+Time base:              5 ns
+Coupling:               
+ 
+PUMP
+Type:                   Laser
+Model:                  Continuum Surelite 1
+Wavelength:             454 nm
+Power:                  6.5 mJ
+Repetition rate:        10 Hz
+Tunable type:           OPO
+Tunable model:          Continuum OPO Plus
+ 
+PROBE
+Type:                   Lamp
+Model:                  standard
+Wavelength start:       300 nm
+Wavelength stop:        800 nm
+Wavelength step:        4 nm
+Wavelength sequence:    up
+Power:                  
+Filter:                 
+Background:             lamp
+ 
+TEMPERATURE
+Temperature:            RT
+Controller:             Lauda alpha RA8
+Cryostat:               N/A
+Cryogen:                H2O
+ 
+COMMENT
+Unfortunately, no usable signal
