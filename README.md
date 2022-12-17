@@ -16,6 +16,11 @@ Recording metadata during data acquisition is both, an essential aspect of and a
 Nothing more than a (plain) text editor.
 
 
+## Format specification
+
+The specification of the Infofile format can be found in the supporting information to the publication provided in the "How to cite" section below.
+
+
 ## Organisation
 
 Examples of templates for different (spectroscopic) methods are provided in the `examples` directory, with older versions of these templates residing in the `examples/archive` subdirectory. 
