@@ -1,5 +1,7 @@
 # The Infofile format
 
+[![DOI](zenodo.7452780.svg)](https://doi.org/10.5281/zenodo.7452780)
+
 Recording metadata during data acquisition is both, an essential aspect of and as old as science itself. The Infofile format is a simple textual file format developed to **document research data**. It allows researchers in the lab to record all relevant metadata **during data acquisition** in a user-friendly and obvious way while minimising any external dependencies. The resulting machine-actionable metadata in turn allow processing and analysis software to access relevant information, besides **making the research data more reproducible** and FAIRer.
 
 ## Features
