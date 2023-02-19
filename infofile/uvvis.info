@@ -1,4 +1,4 @@
-uvvis Info file - v. 0.1.0
+uvvis Info file - v. 0.1.1
 
 GENERAL
 Date start:    2018-05-13
@@ -10,6 +10,7 @@ Purpose:       temperature dependence
 
 SAMPLE
 Name:          PNDIT2
+ID:            42
 Solvent:       toluene
 Concentration: 0.4 mg/ml
 Preparation:   1:25 diluted
