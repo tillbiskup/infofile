@@ -42,7 +42,7 @@ Due to its permissive BSD license, you are free to use and further develop the I
 
 The Infofile format is licensed under a BSD license. However, if you use it for your own research, you may cite the following paper:
 
-  * Bernd Paulus, Till Biskup (2022) Towards more reproducible and FAIRer research data: documenting provenance during data acquisition using the Infofile format. *Digital Discovery* **2**:234–244, 2023. [doi:10.1039/D2DD00131D](https://doi.org/10.1039/D2DD00131D)
+  * Bernd Paulus, Till Biskup: Towards more reproducible and FAIRer research data: documenting provenance during data acquisition using the Infofile format. *Digital Discovery* **2**:234–244, 2023. [doi:10.1039/D2DD00131D](https://doi.org/10.1039/D2DD00131D)
 
 
 ## License
